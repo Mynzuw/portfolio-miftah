@@ -74,7 +74,7 @@
               homeDiv.className='col-sm-12';
               homeDiv.innerHTML=`
               <div class="hero-content" data-aos="fade-up">
-                <h2>Miftah <span>Adha</span><br>Web Developer</h2>
+                <h2>${data.Name}</h2>
                 <div>
                   <a href="about.php" class="btn-get-started scrollto">Get Started</a>
                   <a href="portfolio.php" class="btn-projects scrollto">My Projects</a>
