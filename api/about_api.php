@@ -3,9 +3,9 @@ header('Access-Control-Allow-Origin:*');
 header('Content-Type: application/json');
 
 //hubungkan ke database
-include "../contact.phpkoneksi.php";
+include "../koneksi.php";
 //hubungankan ke fungsi.php
-include "../contact.phpfungsi.php";
+include "../fungsi.php";
 
 //inisialisasi array utk menyimpan data berita
 $data = array();
